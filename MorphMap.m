@@ -9,6 +9,7 @@
 clear all
 close all
 
+% file i/o routines
 % import a DEM-of-Difference, or DoD in ASCII format
 [filename, pathname]=uigetfile('*.asc','Select a DoD file (ARC ascii format)');    
 filename_DoD=[pathname filename];
